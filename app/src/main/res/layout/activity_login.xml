@@ -4,11 +4,9 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity"
+    tools:context=".LoginActivity"
     android:background="#B8B3B3"
     android:orientation="vertical">
-
-
 
     <TextView
         android:layout_width="match_parent"
@@ -31,6 +29,7 @@
         android:textStyle="italic" />
 
     <EditText
+        android:id="@+id/user_name_login"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginLeft="20dp"
@@ -48,6 +47,7 @@
         />
 
     <EditText
+        android:id="@+id/pwd_login"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginLeft="20dp"
@@ -55,9 +55,19 @@
         />
 
     <TextView
+        android:id="@+id/signin_login"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="SIGN IN"
+        android:textSize="35dp"
+        android:gravity="center"
+        android:layout_marginTop="50dp"
+        />
+    <TextView
+        android:id="@+id/signup_login"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Sign Up"
         android:textSize="35dp"
         android:gravity="center"
         android:layout_marginTop="50dp"
